@@ -398,7 +398,7 @@ Both currying and partial application use closure to remember the arguments over
 
 ### Visualizing Curried Functions
 
-Let's examine more closely the `curriedSum(..)` from the previous section. Recall it's usage: `curriedSum(1)(2)(3)(4)(5)`; five subsequent (chained) function calls.
+Let's examine more closely the `curriedSum(..)` from the previous section. Recall its usage: `curriedSum(1)(2)(3)(4)(5)`; five subsequent (chained) function calls.
 
 What if we manually defined a `curriedSum(..)` instead of using `curry(..)`, how would that look?
 
